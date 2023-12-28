@@ -20,7 +20,6 @@ public class TelevisionController {
 		PropertyConfigurator.configure("log4j.properties");
 		log.warn(tr.save(t));
 		return tr.save(t);
-		
 	}
 
 }
